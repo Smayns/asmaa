@@ -1,0 +1,59 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  font-family: system,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Droid Sans,Proxima Nova,sans-serif;
+  color: #3A434C;
+  line-height: 20px;
+
+}
+
+.Link {
+  color: #3A434C;
+}
+
+.Triangle {
+  position: absolute;
+  z-index: -1;
+  background: url('Triangle.svg') no-repeat bottom center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.Content {
+  max-width: 320px;
+  padding: 20px;
+  flex: 1;
+  -webkit-box-flex: 1;
+}
+
+.Photo {
+  width: 160px;
+  height: 160px;
+}
+
+.Name {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.Description {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.Contact {
+  font-size: 14px;
+  font-weight: 100;
+}
